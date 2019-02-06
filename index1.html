@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>dino list - dom</title>
+  </head>
+  <body>
+    <header><h1>Dino Task</h1></header>
+    <form id="search-form" onsubmit="">
+      <input id="search-text" type="text" placeholder="write here..." />
+      <input id="search-button" type="submit" value="let search" />
+    </form>
+    <div id="container" class="container">
+      <h2 id="title" onsubmit="">let's go dino!</h2>
+      <form id="add-form">
+        <input
+          id="add-text"
+          type="text"
+          placeholder="what do you want to do?"
+        />
+        <input id="add-button" type="button" value="add" />
+      </form>
+      <ul id="todo-list"></ul>
+    </div>
+    <script src="indexjs1.js"></script>
+  </body>
+</html>
